@@ -3,7 +3,6 @@ services:
     frontend:
         build:
             context: .
-            target: dev-envs
         container_name: passgen-frontend-prod
         ports:
             - '3000:3000'

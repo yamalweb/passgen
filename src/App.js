@@ -148,7 +148,7 @@ function App() {
                 </CardFooter>
             </Card>
             <Container maxW="3xl" centerContent>
-                <Box padding="4" maxW="md">
+                <Box padding="1" maxW="md">
                     <span>Длина пароля: </span>
                     <Text>{range}</Text>
                     <SliderMarkExample onChangeSlider={setRange} />
